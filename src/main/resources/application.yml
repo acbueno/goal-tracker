@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: goal-tracker
+  data:
+    mongodb: 
+      database: goal_tracker
+      uri: mongodb://root:4whLo5aoOWm8xRx@localhost:27017/goal_tracker?authSource=admin
+server:
+  port: 8096
